@@ -1,3 +1,4 @@
+# this is config forked from purcell and make some change, mainly add ecb, evil, yasnippet
 # A reasonable Emacs config
 
 This is my emacs configuration tree, continually used and tweaked
