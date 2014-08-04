@@ -46,7 +46,6 @@
 (require 'init-recentf)
 (require 'init-ido)
 (require 'init-hippie-expand)
-(require 'init-company)
 (require 'init-yasnippet)
 (require 'init-ecb)
 (require 'init-evil)
