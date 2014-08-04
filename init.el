@@ -140,6 +140,8 @@
             (message "init completed in %.2fms"
                      (sanityinc/time-subtract-millis after-init-time before-init-time))))
 
+(setq scroll-margin 1 
+      scroll-conservatively 10000)
 
 (provide 'init)
 
