@@ -55,7 +55,7 @@
 (require 'init-sessions)
 (require 'init-fonts)
 (require 'init-mmm)
-
+(require 'init-helm-gtags)
 (require 'init-editing-utils)
 
 (require 'init-vc)
@@ -140,8 +140,10 @@
             (message "init completed in %.2fms"
                      (sanityinc/time-subtract-millis after-init-time before-init-time))))
 
-(setq scroll-margin 1 
+(setq scroll-margin 10 
       scroll-conservatively 10000)
+;;(setq load-path (cons "/usr/local/share/gtags" load-path))
+;;(autoload 'gtags-mode "gtags" "" t)
 
 (provide 'init)
 
