@@ -1,6 +1,8 @@
 (when (< emacs-major-version 24)
   (require-package 'color-theme))
 
+(require-package 'monokai-theme)
+
 (require-package 'color-theme-sanityinc-solarized)
 (require-package 'color-theme-sanityinc-tomorrow)
 
@@ -45,7 +47,7 @@ ignored: use `custom-enabled-themes' instead."
 ;;------------------------------------------------------------------------------
 
 ;; If you don't customize it, this is the theme you get.
-(setq-default custom-enabled-themes '(sanityinc-solarized-light))
+(setq-default custom-enabled-themes '(monokai))
 
 ;; Ensure that themes will be applied even if they have not been customized
 (defun reapply-themes ()

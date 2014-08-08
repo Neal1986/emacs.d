@@ -46,6 +46,9 @@
 (require 'init-recentf)
 (require 'init-ido)
 (require 'init-hippie-expand)
+(require 'init-yasnippet)
+(require 'init-ecb)
+(require 'init-evil)
 (require 'init-auto-complete)
 (require 'init-windows)
 (require 'init-sessions)
@@ -105,9 +108,9 @@
 ;;----------------------------------------------------------------------------
 ;; Allow access from emacsclient
 ;;----------------------------------------------------------------------------
-(require 'server)
-(unless (server-running-p)
-  (server-start))
+;;(require 'server)
+;;(unless (server-running-p)
+;;  (server-start))
 
 
 ;;----------------------------------------------------------------------------

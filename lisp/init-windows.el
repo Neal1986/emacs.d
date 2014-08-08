@@ -72,5 +72,7 @@ Call a second time to restore the original window configuration."
                   (interactive)
                   (switch-to-buffer nil)))
 
-
+(global-linum-mode 1)
+(setq scroll-margin 3
+      scroll-conservatively 10000)
 (provide 'init-windows)
